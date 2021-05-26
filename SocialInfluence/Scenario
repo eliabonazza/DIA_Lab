@@ -1,0 +1,2 @@
+In this scenario we have a set of nodes representing the users and the edges representing the influences. (dependent graph)
+The diffusion event starts by defining the seeds and then simulating the influence propagation, keeping into account the influence probability.

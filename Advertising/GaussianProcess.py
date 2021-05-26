@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
         theta = 1.0
         l = 1.0
-        kernel = C(1.0, (1e-3, 1e3)) * RBF(l, (1e-3, 1e3))
+        kernel = C(theta, (1e-3, 1e3)) * RBF(l, (1e-3, 1e3))
 
         gp = GaussianProcessRegressor(kernel=kernel,
                                       alpha=noise_std**2,
